@@ -1,6 +1,6 @@
 module github.com/kgretzky/evilginx2
 
-go 1.18
+go 1.20
 
 require (
 	github.com/caddyserver/certmagic v0.16.1

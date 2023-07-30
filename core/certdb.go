@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kgretzky/evilginx2/log"
+	"github.com/l50/evilginx2/log"
 
 	"github.com/caddyserver/certmagic"
 )
@@ -42,7 +42,6 @@ func NewCertDb(cache_dir string, cfg *Config, ns *Nameserver) (*CertDb, error) {
 
 	certmagic.DefaultACME.Agreed = true
 	certmagic.DefaultACME.Email = o.GetEmail()
-
 
 	err := o.generateCertificates()
 	if err != nil {

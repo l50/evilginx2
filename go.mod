@@ -1,4 +1,4 @@
-module github.com/kgretzky/evilginx2
+module github.com/l50/evilginx2
 
 go 1.20
 
